@@ -21,4 +21,4 @@ $$\dot\theta_i = \omega_i + \frac{K_i}{k_i}\sum_j A_{ij}\sin(\theta_j-\theta_i)$
 when c=0.02, we observe that with time, the nodes form an arc, while some nodes dont (they dont get coupled), so 
 they do their own thing. The arc nodes become full coupled i.e they all have the same phase $\theta$
 
-<img width="1400" height="480" alt="selfish_kuramoto (1)" src="https://github.com/user-attachments/assets/14a49f40-d06c-4b79-8e2d-cf5ad853b658" />
+![GIF](selfish_kuramoto(1).gif)
