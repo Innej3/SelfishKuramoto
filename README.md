@@ -1,6 +1,10 @@
 # Selfish-Kuramoto
 A small simulation project exploring what happens when oscillators in a Kuramoto network are allowed to choose their own coupling strength using reinforcement learning (REINFORCE).
 
+FILES:
+- Kuramoto1.py - this is where all the analysis is done
+- Kuramoto2.py - generating the GIF
+
 ## Model
 $$\dot\theta_i = \omega_i + \frac{K_i}{k_i}\sum_j A_{ij}\sin(\theta_j-\theta_i)$$
 
