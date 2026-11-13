@@ -14,4 +14,4 @@ $$\dot\theta_i = \omega_i + \frac{K_i}{k_i}\sum_j A_{ij}\sin(\theta_j-\theta_i)$
 - When cost becomes too high even when oscillators start in sync, agents slowly lower their coupling to save cost until the whole group suddenly collapses into chaos
 - When synced, oscillators whose natural frequencies ($\omega$) are close to the mean drop their coupling near zero and coast. Fast and slow outliers have to pay a high coupling cost to stay locked in, forming a clear V-shaped when plotting learned $K_i$, against $\omega$
 
-<img width="600" height="500" align='center' alt="image" src="https://github.com/user-attachments/assets/429373f0-05d7-4ee0-9a19-bed1e1c4448f" />
+<img width="600" height="500" align="center" alt="image" src="https://github.com/user-attachments/assets/429373f0-05d7-4ee0-9a19-bed1e1c4448f" />
